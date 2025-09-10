@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['Bass-clef', 'Bemol', 'Diez', 'Eighth-note', 'Eighth-rest', 'Full-note', 'Full-rest', 'Half-dot', 'Half-note', 'Half-rest', 'Quarter-dot', 'Quarter-note', 'Quarter-rest', 'Sixteenth-note', 'Treble-clef']
+
+roboflow:
+  workspace: berfin-ym8qx
+  project: music-notes-detection-ffrf4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/berfin-ym8qx/music-notes-detection-ffrf4/dataset/1
