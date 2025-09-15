@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Image is uploaded from local path:
-image_path = "image.png"
+image_path = "/home/berfin/Desktop/Projects/Music-Note-Detector/türküler/ordunundereleri.png"
 img = cv2.imread(image_path)
 if img is None:
     print("Image not found.")
